@@ -35,3 +35,4 @@ six==1.16.0
 sqlparse==0.4.2
 urllib3==1.26.12
 wrapt==1.14.1
+PyJWT==2.8.0
