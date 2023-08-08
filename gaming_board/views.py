@@ -5,22 +5,22 @@ import openpyxl
 import pyrebase
 
 points = {
-    "Hackathon": [100, 100],
+    "Hackathon": [100, 200],
     "Shark Tank": [100, 200],
     "Product Booth": [100, 200]
 }
 
 total_members = {
-    "App Volumes": 37,
-    "CART": 18,
-    "Horizon Cloud Services": 109,
-    "Horizon Enterprise and Customer Engineering": 137,
-    "PM, OCTO and Mobile Ops": 35,
+    "App Volumes": 31,
+    "CART": 25,
+    "Horizon Cloud Services": 95,
+    "Horizon Enterprise and Customer Engineering": 129,
+    "PM, OCTO and Mobile Ops": 34,
     "SDK, Productivity Apps and Hub Services": 88,
-    "Unified Endpoint Management": 200,
-    "WS1 Access": 70,
-    "WS1 Assist": 31,
-    "WS1 Intelligence and GEM": 61
+    "Unified Endpoint Management": 181,
+    "WS1 Access": 76,
+    "WS1 Assist": 16,
+    "WS1 Intelligence and GEM": 54
 }
 
 last_updated_data = "Registration and Submission"
