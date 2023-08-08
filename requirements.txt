@@ -24,12 +24,12 @@ pyasn1-modules==0.2.8
 pycparser==2.21
 pycryptodome==3.18.0
 pyparsing==3.0.9
-Pyrebase==3.0.27
-Pyrebase4==4.5.0
+Pyrebase
+Pyrebase4
 python-jwt==2.0.1
-pytz==2022.2.1
-requests==2.31.0
-requests-toolbelt==0.10.1
+pytz
+requests
+requests-toolbelt
 rsa==4.9
 six==1.16.0
 sqlparse==0.4.2
