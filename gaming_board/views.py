@@ -165,6 +165,10 @@ class GetTeamScore(APIView):
 
         }
         temp_dict = {}
+
+        if result is None:
+            return Response(final_result, status=status.HTTP_200_OK)
+
         for (key, value) in result.items():
             if value['team_name'] in temp_dict:
                 temp_dict1 = temp_dict[value['team_name']]
@@ -178,6 +182,7 @@ class GetTeamScore(APIView):
                 temp_dict[value['team_name']] = temp_dict1
 
         array_list = []
+
         for (key,value) in temp_dict.items():
             value['normalized_score'] = round((value['total_score'] * 100) / total_members[value['product_name']])
             array_list.append(value)
