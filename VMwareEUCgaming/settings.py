@@ -15,7 +15,6 @@ from pathlib import Path
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
@@ -28,11 +27,11 @@ DEBUG = True
 ALLOWED_HOSTS = ['https://euc-innovation-dashboard.web.app/',
                  'https://euc-innovation-dashboard.web.app/*',
                  '127.0.0.1', 'euc-gaming.herokuapp.com',
+                 'euc-innovation-week.onrender.com',
                  'localhost/',
                  'localhost/*',
                  "https://euc-innovation-dashboard.firebaseapp.com",
-                 "https://euc-innovation-dashboard.firebaseapp.com/*",]
-
+                 "https://euc-innovation-dashboard.firebaseapp.com/*", ]
 
 # Application definition
 
@@ -55,15 +54,15 @@ CORS_ALLOW_METHODS = [
 ]
 
 CORS_ALLOW_HEADERS = [
-'accept',
-'accept-encoding',
-'authorization',
-'content-type',
-'dnt',
-'origin',
-'user-agent',
-'x-csrftoken',
-'x-requested-with',
+    'accept',
+    'accept-encoding',
+    'authorization',
+    'content-type',
+    'dnt',
+    'origin',
+    'user-agent',
+    'x-csrftoken',
+    'x-requested-with',
 ]
 
 CORS_ALLOWED_ORIGINS = [
@@ -102,7 +101,6 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = "VMwareEUCgaming.wsgi.application"
-
 
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
@@ -147,7 +145,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 # Internationalization
 # https://docs.djangoproject.com/en/4.1/topics/i18n/
 
@@ -158,7 +155,6 @@ TIME_ZONE = "UTC"
 USE_I18N = True
 
 USE_TZ = True
-
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
