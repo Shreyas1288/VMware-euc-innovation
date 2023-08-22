@@ -23,7 +23,7 @@ total_members = {
     "WS1 Intelligence and GEM": 54
 }
 
-last_updated_data = "Idea Submissions, 18th August 2023, 10:51 AM"
+last_updated_data = "Idea Submissions, 22nd August 2023, 01:58 PM"
 
 firebaseConfig = {
     'apiKey': "AIzaSyD3V7p2Y897rZhIYVVUpBkUXQDpkqsJD_k",
