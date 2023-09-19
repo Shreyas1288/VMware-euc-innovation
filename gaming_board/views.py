@@ -5,9 +5,9 @@ import openpyxl
 import pyrebase
 
 points = {
-    "Hackathon": [100, 200],
-    "Shark Tank": [100, 200],
-    "Product Booth": [100, 200]
+    "Hackathon": [100, 200, 300],
+    "Shark Tank": [100, 200, 300],
+    "Product Booth": [100, 200, 300]
 }
 
 total_members = {
@@ -23,7 +23,7 @@ total_members = {
     "WS1 Intelligence and GEM": 54
 }
 
-last_updated_data = "Round 1, 11th September 2023, 12:58 PM"
+last_updated_data = "Round 2, 20th September 2023, 01:58 AM"
 
 firebaseConfig = {
     'apiKey': "AIzaSyD3V7p2Y897rZhIYVVUpBkUXQDpkqsJD_k",
