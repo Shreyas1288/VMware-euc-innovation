@@ -8,7 +8,7 @@ points = {
     "Hackathon": [100, 200, 300],
     "Shark Tank": [100, 200, 300],
     "Product Booth": [100, 200, 300],
-    "Special Round": [1000, 800, 600]
+    "Special Round": [1000, 800, 600, 400]
 }
 
 total_members = {
